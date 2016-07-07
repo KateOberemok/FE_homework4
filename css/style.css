@@ -1,0 +1,191 @@
+
+body {
+    background-image: url(../img/background.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    min-height: 100%;
+    color: white;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+.logotip {
+    float: left;
+    width: 40%;
+    height: 165px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.logo {
+    height: 100% ;
+}
+.contakty {
+    float: right;
+    width: 17%;
+    padding-top: 10px;
+    line-height: 1.5;
+    margin-left: 100px;
+}
+.cont {
+    color: #128aa7;
+}
+.iconki {
+    float: right;
+    width: 35%;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.iconki1 {
+    position: relative;
+    overflow: hidden;
+}
+.iconki1 li {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    padding-bottom: 5px;
+}
+.flagi{
+    text-decoration: underline;
+    font-size: 10px;
+    color: #128aa7;
+}
+.wrapper {
+    margin: 0% 11% 3% 11%;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 2px 2px 2px #074257;
+}
+.photo {
+    width: 100%;
+    margin: 0;
+}
+nav {
+    display: block;
+    position: relative;
+    height: 36px;
+    background: #333333;
+    border-bottom:1px solid black ;
+    border-top:2px solid #cacbcb ;
+    box-shadow: 0px 0px 5px 0px black;
+    z-index:4;
+}
+.menu {
+    display: block;
+    /* z-index:5; */
+}
+.menu:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+.menu li{
+    float: left;
+    position: relative;
+    display: block;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   /* z-index:6; */
+    
+}
+.menu li a {
+    display: block;
+    color: #fff; 
+    text-decoration: none;
+}
+.strelka:after { 
+    font-size: 8px;
+    content: "\25bc";
+}
+.submenu {
+    display: none;
+    position: absolute;
+    width: 160px;
+    top: 100%;
+    left: 30px;
+    background-color: #333333;
+    border-top: 1px solid black;
+    box-shadow: 0px 1px 6px 1px #303030;
+    z-index:7;
+}
+.submenu li {
+    display: block;
+    padding-left: 8px; 
+}
+.submenu li:last-child {
+    padding-bottom: 15px;
+}
+.submenu li a {
+    display: block;
+    color: #fff; 
+    text-decoration: none;
+}
+.menu  li:hover  ul.submenu {
+    display: block;
+}
+
+.fon1 { 
+    float: left;
+    width: 100%;
+    background: #edeef0;
+    position: relative;
+    right: 56%;
+    line-height: 1.5;
+    color: #424c43; 
+    /* z-index:3; */
+}
+.fon2 { 
+    float: left;
+    width: 100%;
+    background: #ffffff;
+    position: relative;
+    /* z-index:2; */
+    right: 22%;
+}
+.fon3 {
+    float: left;
+    width: 100%;
+    background: #edeef0;
+    position: relative;
+    overflow: hidden;
+    /* z-index:1; */
+}
+.leftColumn {
+    float: left; 
+    width: 18%;
+    position:relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    left:79%; 
+    text-align: center;
+}
+.centerColumn {
+    float: left;
+    width: 54%;
+    position:relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    left:83%;
+    text-align: center;
+}
+.rightColumn {
+    float: left;
+    width: 18%;
+    position:relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    left:85%;
+    text-align: center;
+}
+.zagolovok {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+footer { 
+    text-align: center;
+}
